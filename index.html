@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BSIC | Banque Sahélo-Saharienne pour l'Investissement et le Commerce</title>
+<meta name="description" content="BSIC, banque au service du développement et de l'intégration africaine. Particuliers, professionnels, entreprises et institutionnels.">
+<link rel="icon" href="images/logo-bsic.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===================== TOP BAR ===================== -->
+<div class="topbar">
+  <div class="container">
+    <div class="social" data-social></div>
+    <div class="links">
+      <a href="#/agences" data-i18n="agences">Nos agences</a>
+      <a href="#/carrieres" data-i18n="carrieres">Carrières</a>
+      <a href="#/contact" data-i18n="contact">Contactez-nous</a>
+    </div>
+    <div class="lang-switch">
+      <button type="button" data-lang="fr">Français</button><span>|</span><button type="button" data-lang="ar">العربية</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== HEADER ===================== -->
+<header class="main">
+  <div class="container header-row">
+    <a href="#/" class="logo" aria-label="BSIC">
+      <img src="images/logo-bsic.svg" alt="Logo BSIC" class="logo-img">
+      <div class="logo-text"><strong>BSIC</strong><small data-i18n="tagline">Banque Sahélo-Saharienne pour l'Investissement et le Commerce</small></div>
+    </a>
+    <div class="header-actions">
+      <div class="dropdown">
+        <button class="dropdown-toggle" type="button"><span data-i18n="vousEtes">Vous êtes</span> <i class="fas fa-chevron-down"></i></button>
+        <div class="dropdown-menu">
+          <a href="#offres" data-tab="particuliers"><i class="fas fa-user"></i><span data-i18n="vParticulier"></span></a>
+          <a href="#offres" data-tab="professionnels"><i class="fas fa-briefcase"></i><span data-i18n="vPro"></span></a>
+          <a href="#offres" data-tab="entreprises"><i class="fas fa-building"></i><span data-i18n="vEntreprise"></span></a>
+          <a href="#/communication-financiere"><i class="fas fa-chart-line"></i><span data-i18n="vInvest"></span></a>
+        </div>
+      </div>
+      <a href="#/contact" class="btn btn-accent header-cta"><i class="fas fa-envelope"></i><span data-i18n="contact">Contactez-nous</span></a>
+      <button class="lang-btn" type="button" data-lang-toggle>العربية</button>
+      <button class="burger" type="button" aria-label="Menu" data-i18n-aria="menu"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
+  <nav class="mainnav">
+    <div class="container" style="position:relative"><ul class="nav-list" id="navList"></ul></div>
+  </nav>
+</header>
+
+<!-- ===================== ACCUEIL ===================== -->
+<main id="homeView">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="slide s1 active"><div class="container"><div class="slide-content">
+      <span class="kicker" data-i18n="s1k"></span><h1 data-i18n="s1t"></h1><p data-i18n="s1p"></p>
+      <div class="btns"><a href="#offres" class="btn btn-accent" data-i18n="s1b1"></a><a href="#/agences" class="btn btn-white" data-i18n="s1b2"></a></div>
+    </div></div></div>
+    <div class="slide s2"><div class="container"><div class="slide-content">
+      <span class="kicker" data-i18n="s2k"></span><h1 data-i18n="s2t"></h1><p data-i18n="s2p"></p>
+      <div class="btns"><a href="#/groupe" class="btn btn-accent" data-i18n="s2b"></a></div>
+    </div></div></div>
+    <div class="slide s3"><div class="container"><div class="slide-content">
+      <span class="kicker" data-i18n="s3k"></span><h1 data-i18n="s3t"></h1><p data-i18n="s3p"></p>
+      <div class="btns"><a href="#/actualites" class="btn btn-accent" data-i18n="s3b"></a></div>
+    </div></div></div>
+    <div class="hero-controls"><div class="container">
+      <button class="arrow" type="button" data-dir="-1" data-i18n-aria="prev"><i class="fas fa-chevron-left"></i></button>
+      <div class="dots"></div>
+      <button class="arrow" type="button" data-dir="1" data-i18n-aria="next"><i class="fas fa-chevron-right"></i></button>
+    </div></div>
+  </section>
+
+  <!-- ACCÈS RAPIDE -->
+  <section class="quick"><div class="container"><div class="quick-grid">
+    <a href="#demarches" class="quick-item"><i class="fas fa-user-plus"></i><h4 data-i18n="q1t"></h4><p data-i18n="q1p"></p></a>
+    <a href="#/agences" class="quick-item"><i class="fas fa-map-location-dot"></i><h4 data-i18n="q2t"></h4><p data-i18n="q2p"></p></a>
+    <a href="#/simulateur" class="quick-item"><i class="fas fa-calculator"></i><h4 data-i18n="q3t"></h4><p data-i18n="q3p"></p></a>
+    <a href="#/actualites" class="quick-item"><i class="fas fa-newspaper"></i><h4 data-i18n="q4t"></h4><p data-i18n="q4p"></p></a>
+    <a href="#/contact" class="quick-item"><i class="fas fa-headset"></i><h4 data-i18n="q5t"></h4><p data-i18n="q5p"></p></a>
+  </div></div></section>
+
+  <!-- OFFRES -->
+  <section class="section" id="offres"><div class="container">
+    <div class="section-head">
+      <div><span class="kicker" data-i18n="offK"></span><h2 data-i18n-html="offT"></h2></div>
+      <div class="tabs">
+        <button class="tab active" type="button" data-tab="particuliers" data-i18n="tabParticuliers"></button>
+        <button class="tab" type="button" data-tab="professionnels" data-i18n="tabPros"></button>
+        <button class="tab" type="button" data-tab="entreprises" data-i18n="tabEntreprises"></button>
+      </div>
+    </div>
+    <div class="offers" id="offersGrid"></div>
+  </div></section>
+
+  <!-- DÉMARCHES -->
+  <section class="section section-soft" id="demarches"><div class="container">
+    <div class="section-head">
+      <div><span class="kicker" data-i18n="demK"></span><h2 data-i18n-html="demT"></h2></div>
+      <a href="#/contact" class="btn btn-outline" data-i18n="demBtn"></a>
+    </div>
+    <div class="steps">
+      <div class="step"><i class="fas fa-folder-open"></i><h3 data-i18n="st1t"></h3><p data-i18n="st1p"></p></div>
+      <div class="step"><i class="fas fa-location-dot"></i><h3 data-i18n="st2t"></h3><p data-i18n="st2p"></p></div>
+      <div class="step"><i class="fas fa-pen-nib"></i><h3 data-i18n="st3t"></h3><p data-i18n="st3p"></p></div>
+      <div class="step"><i class="fas fa-circle-check"></i><h3 data-i18n="st4t"></h3><p data-i18n="st4p"></p></div>
+    </div>
+    <div class="docs-box">
+      <div><h3 data-i18n="docsT"></h3><p style="opacity:.85;font-size:14px" data-i18n="docsP"></p></div>
+      <ul>
+        <li><i class="fas fa-check"></i><span data-i18n="doc1"></span></li>
+        <li><i class="fas fa-check"></i><span data-i18n="doc2"></span></li>
+        <li><i class="fas fa-check"></i><span data-i18n="doc3"></span></li>
+        <li><i class="fas fa-check"></i><span data-i18n="doc4"></span></li>
+      </ul>
+    </div>
+  </div></section>
+
+  <!-- ACTUALITÉS -->
+  <section class="section" id="actualites"><div class="container">
+    <div class="section-head">
+      <div><span class="kicker" data-i18n="newsK"></span><h2 data-i18n-html="newsT"></h2></div>
+      <a href="#/actualites" class="btn btn-outline"><span data-i18n="newsAll"></span> <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="news-feature" id="newsHome"></div>
+  </div></section>
+
+  <!-- FOCUS -->
+  <section class="section focus" id="apropos"><div class="container focus-grid">
+    <div>
+      <span class="kicker" data-i18n="focusK"></span>
+      <h2 data-i18n="focusT"></h2>
+      <p data-i18n="focusP"></p>
+      <a href="#/groupe" class="btn btn-accent" data-i18n="focusBtn"></a>
+    </div>
+    <div class="figures">
+      <div class="figure"><strong data-count="1999">1999</strong><span data-i18n="fig1"></span></div>
+      <div class="figure"><strong data-count="14">14</strong><span data-i18n="fig2"></span></div>
+      <div class="figure"><strong data-count="28">28</strong><span data-i18n="fig3"></span></div>
+      <div class="figure"><strong>4</strong><span data-i18n="fig4"></span></div>
+    </div>
+  </div></section>
+
+  <!-- PUBLICATIONS -->
+  <section class="section" id="publications"><div class="container">
+    <div class="section-head">
+      <div><span class="kicker" data-i18n="pubK"></span><h2 data-i18n-html="pubT"></h2></div>
+      <a href="#/communication-financiere" class="btn btn-outline" data-i18n="pubBtn"></a>
+    </div>
+    <div class="pubs">
+      <a href="#/communication-financiere" class="pub"><small data-i18n="pub1k"></small><h4 data-i18n="pub1t"></h4><span class="more"><i class="fas fa-file-lines"></i><span data-i18n="pubLink"></span></span></a>
+      <a href="#/communication-financiere" class="pub"><small data-i18n="pub2k"></small><h4 data-i18n="pub2t"></h4><span class="more"><i class="fas fa-file-lines"></i><span data-i18n="pubLink"></span></span></a>
+      <a href="#/communication-financiere" class="pub"><small data-i18n="pub3k"></small><h4 data-i18n="pub3t"></h4><span class="more"><i class="fas fa-file-lines"></i><span data-i18n="pubLink"></span></span></a>
+      <a href="#/conformite" class="pub"><small data-i18n="pub4k"></small><h4 data-i18n="pub4t"></h4><span class="more"><i class="fas fa-file-lines"></i><span data-i18n="pubLink"></span></span></a>
+    </div>
+  </div></section>
+
+  <!-- RÉSEAU -->
+  <section class="section section-soft" id="reseau"><div class="container network-grid">
+    <div>
+      <span class="kicker" data-i18n="resK"></span>
+      <h2 data-i18n-html="resT"></h2>
+      <p data-i18n="resP"></p>
+      <div class="countries" id="countries"></div>
+      <a href="#/groupe" class="btn btn-outline" data-i18n="resBtn"></a>
+    </div>
+    <div class="network-media"><img src="images/bannieres/accueil-reseau.jpg" alt="" loading="lazy"></div>
+  </div></section>
+
+  <!-- VOUS ÊTES -->
+  <section class="section" id="profils"><div class="container">
+    <div class="section-head"><div><span class="kicker" data-i18n="profK"></span><h2 data-i18n-html="profT"></h2></div></div>
+    <div class="profiles">
+      <a href="#offres" data-tab="particuliers" class="profile"><i class="fas fa-user"></i><h4 data-i18n="p1t"></h4><p data-i18n="p1p"></p></a>
+      <a href="#offres" data-tab="professionnels" class="profile"><i class="fas fa-briefcase"></i><h4 data-i18n="p2t"></h4><p data-i18n="p2p"></p></a>
+      <a href="#offres" data-tab="entreprises" class="profile"><i class="fas fa-building"></i><h4 data-i18n="p3t"></h4><p data-i18n="p3p"></p></a>
+      <a href="#/communication-financiere" class="profile"><i class="fas fa-chart-line"></i><h4 data-i18n="p4t"></h4><p data-i18n="p4p"></p></a>
+      <a href="#/conformite" class="profile"><i class="fas fa-building-columns"></i><h4 data-i18n="p5t"></h4><p data-i18n="p5p"></p></a>
+      <a href="#/actualites" class="profile"><i class="fas fa-newspaper"></i><h4 data-i18n="p6t"></h4><p data-i18n="p6p"></p></a>
+      <a href="#/carrieres" class="profile"><i class="fas fa-user-tie"></i><h4 data-i18n="p7t"></h4><p data-i18n="p7p"></p></a>
+      <a href="#/gestion-patrimoine" class="profile"><i class="fas fa-gem"></i><h4 data-i18n="p8t"></h4><p data-i18n="p8p"></p></a>
+    </div>
+  </div></section>
+</main>
+
+<!-- ===================== PAGES INTERNES ===================== -->
+<main id="pageView" hidden></main>
+
+<!-- ===================== NEWSLETTER ===================== -->
+<section class="newsletter"><div class="container">
+  <div><h3 data-i18n="nlT"></h3><p data-i18n="nlP"></p></div>
+  <form class="nl-form" id="nlForm">
+    <input type="email" required data-i18n-ph="nlPh" aria-label="E-mail">
+    <button type="submit" data-i18n="nlBtn"></button>
+  </form>
+</div></section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#/" class="logo"><img src="images/logo-bsic-blanc.svg" alt="Logo BSIC" class="logo-img"><div class="logo-text"><strong>BSIC</strong></div></a>
+      <p><i class="fas fa-location-dot"></i><span data-config="adresse"></span></p>
+      <p data-config-row="tel"><i class="fas fa-phone"></i><a data-config="tel"></a></p>
+      <p data-config-row="email"><i class="fas fa-envelope"></i><a data-config="email"></a></p>
+      <div class="social" data-social></div>
+    </div>
+    <div id="footerCols" style="display:contents"></div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> BSIC. <span data-i18n="rights"></span></span>
+    <ul id="footerLegal"></ul>
+  </div>
+</footer>
+
+<!-- Visionneuse photos -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" hidden>
+  <button class="lb-close" type="button" data-i18n-aria="close"><i class="fas fa-xmark"></i></button>
+  <button class="lb-nav lb-prev" type="button" data-i18n-aria="prev"><i class="fas fa-chevron-left"></i></button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb-nav lb-next" type="button" data-i18n-aria="next"><i class="fas fa-chevron-right"></i></button>
+</div>
+
+<button class="to-top" type="button" aria-label="Haut de page"><i class="fas fa-arrow-up"></i></button>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

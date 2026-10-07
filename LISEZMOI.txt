@@ -1,0 +1,22 @@
+SITE VITRINE BSIC (FR / AR)
+===========================
+
+Ouvrir : index.html (aucun serveur nécessaire).
+Le site s'ouvre toujours en français ; le bouton « العربية » passe en arabe.
+Lien direct vers la version arabe : index.html?lang=ar
+
+Fichiers à modifier
+- assets/js/config.js   : adresse, téléphone, e-mail, horaires, réseaux sociaux
+- assets/js/content.js  : pages, menu, offres, agences, actualités
+- assets/js/i18n.js     : textes de l'interface en français et en arabe
+
+Ajouter une actualité
+1. Créer le dossier images/actualites/<id>/ avec :
+   1.jpg, 2.jpg ... (photos, la 1 = photo principale, 1600 px max)
+   t1.jpg, t2.jpg ... (miniatures 480x360)
+   vignette.jpg (800x500, utilisée sur l'accueil et la liste)
+2. Ajouter une entrée dans le tableau NEWS de content.js
+   (id, n = nombre de photos, cat, lieu, titre et texte FR / AR).
+
+Bannières : images/bannieres/ (slider 1920x760, pages 1920x520).
+Icônes : Font Awesome intégré dans assets/vendor (fonctionne hors ligne).
